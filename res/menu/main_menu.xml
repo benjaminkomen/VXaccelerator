@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+   <!--  <item
+        android:id="@+id/background"
+        android:title="background_title"/>
+        android:showAsAction="never" -->
+    <item
+        android:id="@+id/clearfiles"
+        android:title="files"/>
+        android:showAsAction="ifRoom"
+    <item
+        android:id="@+id/fft"
+        android:title="perform fft"/>
+        android:showAsAction="ifRoom"
+    <item
+        android:id="@+id/s256"
+        android:title="view samples 256"/>
+        android:showAsAction="ifRoom"
+    <item
+        android:id="@+id/s512"
+        android:title="view samples 512"/>
+        android:showAsAction="ifRoom"
+    <item
+        android:id="@+id/s1024"
+        android:title="view samples 1024"/>
+        android:showAsAction="ifRoom"
+    <item
+        android:id="@+id/s2048"
+        android:title="view samples 2048"/>
+        android:showAsAction="ifRoom"
+</menu>
